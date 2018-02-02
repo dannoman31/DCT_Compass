@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		68CE6E0A1F3644ED0003A75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E091F3644ED0003A75F /* AppDelegate.swift */; };
-		68CE6E0C1F3644ED0003A75F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E0B1F3644ED0003A75F /* ViewController.swift */; };
 		68CE6E0F1F3644ED0003A75F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CE6E0D1F3644ED0003A75F /* Main.storyboard */; };
 		68CE6E121F3644ED0003A75F /* Compass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E101F3644ED0003A75F /* Compass.xcdatamodeld */; };
 		68CE6E141F3644ED0003A75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CE6E131F3644ED0003A75F /* Assets.xcassets */; };
 		68CE6E171F3644EE0003A75F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CE6E151F3644EE0003A75F /* LaunchScreen.storyboard */; };
 		68CE6E221F3644EF0003A75F /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E211F3644EF0003A75F /* CompassTests.swift */; };
 		68CE6E2D1F3644EF0003A75F /* CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E2C1F3644EF0003A75F /* CompassUITests.swift */; };
+		68CE6E3B1F3646E90003A75F /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E3A1F3646E90003A75F /* CLLocation+Extension.swift */; };
+		68CE6E3D1F36489E0003A75F /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E3C1F36489E0003A75F /* CompassViewController.swift */; };
+		68CE6E421F3648B00003A75F /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E3E1F3648B00003A75F /* LocationDelegate.swift */; };
+		68CE6E431F3648B00003A75F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E3F1F3648B00003A75F /* MapViewController.swift */; };
+		68CE6E441F3648B00003A75F /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E401F3648B00003A75F /* MapViewControllerDelegate.swift */; };
+		68CE6E451F3648B00003A75F /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CE6E411F3648B00003A75F /* UserDefauts+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		68CE6E061F3644ED0003A75F /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CE6E091F3644ED0003A75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68CE6E0B1F3644ED0003A75F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68CE6E0E1F3644ED0003A75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68CE6E111F3644ED0003A75F /* Compass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Compass.xcdatamodel; sourceTree = "<group>"; };
 		68CE6E131F3644ED0003A75F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		68CE6E281F3644EF0003A75F /* CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CE6E2C1F3644EF0003A75F /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
 		68CE6E2E1F3644EF0003A75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CE6E3A1F3646E90003A75F /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		68CE6E3C1F36489E0003A75F /* CompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		68CE6E3E1F3648B00003A75F /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		68CE6E3F1F3648B00003A75F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		68CE6E401F3648B00003A75F /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		68CE6E411F3648B00003A75F /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				68CE6E091F3644ED0003A75F /* AppDelegate.swift */,
-				68CE6E0B1F3644ED0003A75F /* ViewController.swift */,
+				68CE6E3C1F36489E0003A75F /* CompassViewController.swift */,
+				68CE6E3E1F3648B00003A75F /* LocationDelegate.swift */,
+				68CE6E3F1F3648B00003A75F /* MapViewController.swift */,
+				68CE6E401F3648B00003A75F /* MapViewControllerDelegate.swift */,
+				68CE6E411F3648B00003A75F /* UserDefauts+Extensions.swift */,
 				68CE6E0D1F3644ED0003A75F /* Main.storyboard */,
 				68CE6E131F3644ED0003A75F /* Assets.xcassets */,
 				68CE6E151F3644EE0003A75F /* LaunchScreen.storyboard */,
 				68CE6E181F3644EE0003A75F /* Info.plist */,
 				68CE6E101F3644ED0003A75F /* Compass.xcdatamodeld */,
+				68CE6E3A1F3646E90003A75F /* CLLocation+Extension.swift */,
 			);
 			path = Compass;
 			sourceTree = "<group>";
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CE6E0C1F3644ED0003A75F /* ViewController.swift in Sources */,
+				68CE6E3D1F36489E0003A75F /* CompassViewController.swift in Sources */,
+				68CE6E431F3648B00003A75F /* MapViewController.swift in Sources */,
+				68CE6E3B1F3646E90003A75F /* CLLocation+Extension.swift in Sources */,
 				68CE6E121F3644ED0003A75F /* Compass.xcdatamodeld in Sources */,
 				68CE6E0A1F3644ED0003A75F /* AppDelegate.swift in Sources */,
+				68CE6E451F3648B00003A75F /* UserDefauts+Extensions.swift in Sources */,
+				68CE6E421F3648B00003A75F /* LocationDelegate.swift in Sources */,
+				68CE6E441F3648B00003A75F /* MapViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +540,7 @@
 				68CE6E331F3644EF0003A75F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CE6E341F3644EF0003A75F /* Build configuration list for PBXNativeTarget "CompassTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +549,7 @@
 				68CE6E361F3644EF0003A75F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CE6E371F3644EF0003A75F /* Build configuration list for PBXNativeTarget "CompassUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +558,7 @@
 				68CE6E391F3644EF0003A75F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
